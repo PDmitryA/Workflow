@@ -1,0 +1,57 @@
+{
+  "name": "pashalab3",
+  "version": "1.0.0",
+  "description": "lab 3 start react",
+  "main": "index.js",
+  "scripts": {
+    "start": "build",
+    "build": "NODE_ENV=production webpack",
+    "run:dev": "NODE_ENV=development webpack-dev-server --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PDmitryA",
+  "license": "ISC",
+  "dependencies": {
+    "extract-text-webpack-plugin": "next",
+    "node-sass": "^4.9.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "2.0.5",
+    "reset-css": "^4.0.1",
+    "sass": "^1.14.2",
+    "webpack": "^4.27.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "acorn": "^6.0.4",
+    "acorn-jsx": "^5.0.1",
+    "babel-loader": "^8.0.4",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "jest": "^23.6.0",
+    "jsx-loader": "^0.13.2",
+    "react-hot-loader": "^4.3.11",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
