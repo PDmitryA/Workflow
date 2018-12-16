@@ -1,0 +1,5 @@
+node_modules/
+public/assets/
+.idea/
+
+package-lock.json
